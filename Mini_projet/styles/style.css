@@ -1,0 +1,150 @@
+body {
+    font-family: sans-serif;
+    background-color: whitesmoke;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    background-color: wheat;
+}
+
+h3 {
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 80%;
+}
+h4 {
+    display: inline-block;
+    border-bottom: 1px solid lightgray;
+    border-left: 1px solid lightgray;
+    padding-bottom: 0px;
+    border-bottom-left-radius: 5px;
+}
+
+div {
+    margin: 10px;
+}
+
+/* nav.php */
+div.navi {
+    background-color: #ce2d1e;
+}
+div.zoom {
+    background-color: #daebfe;
+}
+
+a.zoom {
+    color: #000;
+}
+
+a.navi:link,
+:visited {
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: white;
+    margin-right: 5%;
+}
+
+a.navi:hover {
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
+/* cal_2025.php */
+table.cal {
+    width: 20%;
+    border: solid 1px #bdbdbd;
+}
+
+
+tr.cal:nth-child(even) {
+    background-color: #e0e0e0;
+}
+
+th,
+td.cal {
+    padding: 5px;
+    text-align: left;
+}
+
+/* pilotes.php */
+table.pilote {
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-top-right-radius: 10px;
+}
+
+th.pilote {
+    border-bottom: 1px #bdbdbd;
+    font-size: xx-large;
+}
+
+td.pilote_equipe {
+    background-color: rgb(15, 66, 4);
+    font-style: italic;
+    font-size: large;
+    color: white;
+}
+
+img.pays {
+    width: 48px;
+    height: auto;
+    float: right;
+}
+
+img.numero {
+    width: 100px;
+    height: auto;
+}
+
+img.portrait {
+    width: 160px;
+    height: auto;
+}
+
+/* equipe.php */
+table.equipe {
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+    border-top-right-radius: 10px;
+}
+
+td.equipe {
+    font-size: xx-large;
+    font-weight: bolder;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
+}
+
+td.equipe_pilote {
+    border-bottom: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom-right-radius: 5px;
+}
+
+img.equipe_portrait {
+    width: 80px;
+    height: auto;
+    float: right;
+}
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #abbaba;
+    color: #000;
+  }
+/* for pilotes.php, equipe.php */
+#group {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
